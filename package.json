@@ -1,7 +1,7 @@
 {
-  "name": "react-hook-form",
+  "name": "@la-fourche/react-hook-form",
   "description": "Performant, flexible and extensible forms library for React Hooks",
-  "version": "5.7.2",
+  "version": "5.7.4",
   "main": "dist/react-hook-form.js",
   "module": "dist/react-hook-form.es.js",
   "types": "dist/index.d.ts",
@@ -87,7 +87,7 @@
     }
   ],
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.8.0 || ^17 || ^18"
   },
   "husky": {
     "hooks": {
@@ -99,5 +99,8 @@
       "npm run lint",
       "npm run prettier"
     ]
+  },
+  "publishConfig": {
+    "@la-fourche:registry": "https://gitlab.com/api/v4/projects/39930541/packages/npm/"
   }
 }
